@@ -1,4 +1,4 @@
- 
+Programming language and development GCD+
 ```markdown
 # GCD+ Programming Language Definition
 
