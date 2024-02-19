@@ -1,24 +1,55 @@
-# GCD Programming Guide
+## دليل برمجة لغة GCD+
 
-## Overview
+### المقدمة:
 
-GCD (GCD Code Language) is an advanced and versatile programming language designed for efficient and modern software development. It combines simplicity with powerful features, making it suitable for a wide range of applications, from simple scripts to complex machine learning models.
+لغة GCD+ هي لغة برمجة متقدمة ومطورة تهدف إلى توفير بيئة فعالة وشاملة للمبرمجين. يحتوي هذا الدليل على نظرة عامة على الأساسيات والأوامر الرئيسية لبرمجة تطبيقات GCD+.
 
-## Key Features
+### البنية الأساسية:
 
-- **Multilingual Support**: GCD supports multiple programming languages, including Arabic, English, French, German, and American English.
-
-- **Advanced Server Integration**: GCD provides advanced server integration for hosting and managing applications. Developers can configure server settings, specify page length, and enable features such as topic modeling and content clustering.
-
-- **Comprehensive Programming Guide**: GCD includes a comprehensive programming guide covering language syntax, application structure, and advanced features like machine learning and augmented reality.
-
-- **UI Design with Ui+**: Designing user interfaces is simplified with the Ui+ syntax, allowing developers to create aesthetically pleasing and interactive designs.
-
-## Activation
-
-To activate the GCD language, use the following code in a file named `gcd_activation.gcd`:
+لإنشاء تطبيق GCD+ بسيط، استخدم البنية الأساسية التالية:
 
 ```gcd
-# GCD Activation Code
+~name#app=MyFirstApp
+$colors#green
 
-activate_language: gcd
+#body+
+~text#مرحبًا بك في GCD+ Programming
+#button[
+   text=انقر هنا
+   $color#yellow
+   [length] #100px
+   [width]#50px
+]
+```
+
+### الأوامر الأساسية:
+
+1. `~name#app`: تحديد اسم التطبيق.
+2. `$colors`: تحديد لون واجهة التطبيق.
+3. `~text`: إضافة نص إلى واجهة التطبيق.
+4. `#button`: إضافة زر إلى واجهة التطبيق.
+
+### تحكم في الواجهة:
+
+- `#topBar`: إضافة شريط علوي.
+- `#window`: تحديد خصائص النافذة.
+
+### الميزات المتقدمة:
+
+- `#animation`: إضافة تأثيرات حركية.
+- `#database`: دعم قواعد البيانات.
+- `#language`: دعم لغات متعددة.
+- `#adMob`: تكامل مع AdMob للإعلانات.
+- `#authentication`: تحديد نوع التوثيق.
+
+### 30 مثالًا متقدمًا:
+
+يتم توفير 30 مثالًا متقدمًا لتوضيح ميزات GCD+، يمكنك العثور عليها في [ملف تعريف اللغة (LANGUAGE_DEFINITION.md)](LANGUAGE_DEFINITION.md).
+
+### تخصيص أكثر:
+
+يمكنك استخدام ميزات تخصيص أخرى لتعديل شكل وأداء تطبيقاتك، يمكنك العثور على المزيد في دليل GCD+ المتقدم.
+
+---
+
+هذا الدليل يقدم لمحة عامة حول البرمجة باستخدام لغة GCD+. لمزيد من التفاصيل والميزات، يرجى الرجوع إلى ملف تعريف اللغة والأمثلة المتقدمة.
