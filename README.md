@@ -1,5 +1,4 @@
-### Language Definition (LANGUAGE_DEFINITION.md):
-
+ 
 ```markdown
 # GCD+ Programming Language Definition
 
