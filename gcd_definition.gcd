@@ -1,0 +1,28 @@
+# GCD Programming Language Definition
+
+name~~GCD
+top#===
+app#name~~
+text#
+photo~#
+video#~
+language_support:
+  - arabic
+  - english
+  - french
+  - german
+  - american_english
+server:
+  - name: server.gcd
+    page_length: 100
+    advanced_features:
+      - topic_modeling
+      - content_clustering
+ui:
+  - design_tool: Ui+
+  - color_support:
+      - green
+      - purple
+programming_guide: GCD_Programming_Guide
+machine_learning~#
+
