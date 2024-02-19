@@ -1,0 +1,18 @@
+# This is a simple GCD+ program
+print("Hello, GCD+!")
+
+# Define a function
+function greet(name) {
+   print("Greetings, " + name + "!")
+}
+
+# Call the function
+greet("John")
+if (condition) {
+   // Code to execute if the condition is true
+} else {
+   // Code to execute if the condition is false
+}
+function_name(parameters) {
+   // Function body
+}
