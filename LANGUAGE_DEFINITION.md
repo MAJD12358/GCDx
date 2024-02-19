@@ -1,4 +1,7 @@
-
+#icon+
+   name=language-icon.png
+   [size]#50px
+   
 ### License File (LICENSE):
 
 Choose a license type that suits your project needs and add a `LICENSE` file containing the license text.
