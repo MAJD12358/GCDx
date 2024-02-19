@@ -1,31 +1,26 @@
-name: Build GCD+ Code
+name: Update GCD+ Logo
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - 'logo.png'
 
 jobs:
-  build:
+  update_logo:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Generate GCD+ Code
-        run: |
-          echo "# GCD+ Code Generation" > main.gcd
-          echo "~name#app=GeneratedApp" >> main.gcd
-          echo "$colors#blue" >> main.gcd
-          echo "#body+" >> main.gcd
-          echo "~text#Hello, GCD+!" >> main.gcd
+      - name: Update GCD+ Logo
+        run: cp logo.png /path/to/your/documentation/folder/logo.png
 
-      - name: Commit and Push Changes
+      - name: Commit and Push Logo Update
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add main.gcd
-          git commit -m "Generate GCD+ code"
+          git add /path/to/your/documentation/folder/logo.png
+          git commit -m "Update GCD+ logo"
           git push
           
