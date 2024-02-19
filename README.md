@@ -1,4 +1,6 @@
 Programming language and development GCD+
+ ### GCD+ Programming Language Definition (LANGUAGE_DEFINITION.md):
+
 ```markdown
 # GCD+ Programming Language Definition
 
@@ -94,4 +96,232 @@ Choose a license type that suits your project needs and add a `LICENSE` file con
    [box_shadow]#0px 0px 10px #888888
 ```
 
-Modify these files and provide additional details and features according to your project requirements.
+### 30 Advanced GCD+ Examples:
+
+1. **Creating a Basic Animation:**
+   ```gcd
+   #animation+
+      type=fade
+      duration=2s
+   ```
+
+2. **Implementing Database Connectivity:**
+   ```gcd
+   #database+
+      type=mysql
+      connection_string=...
+   ```
+
+3. **Adding Multi-Language Support:**
+   ```gcd
+   #language+
+      supported_languages=en,ar,fr,de
+      default_language=en
+   ```
+
+4. **Integrating AdMob for Monetization:**
+   ```gcd
+   #adMob+
+      ad_unit_id=...
+      banner_position=bottom
+   ```
+
+5. **Implementing User Authentication:**
+   ```gcd
+   #authentication+
+      type=email
+      social_logins=google,facebook
+   ```
+
+6. **Creating Custom Widgets:**
+   ```gcd
+   #widget+
+      type=custom
+      code=...
+   ```
+
+7. **Implementing Real-time Updates:**
+   ```gcd
+   #realTime+
+      type=sockets
+      server_url=...
+   ```
+
+8. **Integrating Augmented Reality:**
+   ```gcd
+   #AR+
+      features=image_recognition
+      markers=...
+   ```
+
+9. **Developing a 3D Game:**
+   ```gcd
+   #game+
+      type=3D
+      engine=...
+   ```
+
+10. **Implementing Push Notifications:**
+    ```gcd
+    #notifications+
+       type=push
+       provider=firebase
+    ```
+
+11. **Creating a Custom Splash Screen:**
+    ```gcd
+    #splashScreen+
+       type=custom
+       design=...
+    ```
+
+12. **Adding Speech Recognition:**
+    ```gcd
+    #speechRecognition+
+       language=en
+    ```
+
+13. **Implementing In-App Purchases:**
+    ```gcd
+    #inAppPurchases+
+       products=...
+    ```
+
+14. **Integrating Machine Learning Models:**
+    ```gcd
+    #machineLearning+
+       model=...
+    ```
+
+15. **Developing a Weather App:**
+    ```gcd
+    #weatherApp+
+       provider=...
+    ```
+
+16. **Creating a Chat Application:**
+    ```gcd
+    #chatApp+
+       type=realTime
+       backend=...
+    ```
+
+17. **Implementing Dark Mode:**
+    ```gcd
+    #appearance+
+       mode=dark
+    ```
+
+18. **Adding Custom Fonts:**
+    ```gcd
+    #fonts+
+       family=...
+    ```
+
+19. **Creating a Video Streaming App:**
+    ```gcd
+    #videoStreaming+
+       platform=...
+    ```
+
+20. **Implementing Geolocation:**
+    ```gcd
+    #geolocation+
+       type=GPS
+       accuracy=high
+    ```
+
+21. **Developing a Fitness Tracking App:**
+    ```gcd
+    #fitnessApp+
+       features=...
+    ```
+
+22. **Adding Support for Wearables:**
+    ```gcd
+    #wearables+
+       type=smartWatch
+       platform=...
+    ```
+
+23. **Creating a Custom Camera Widget:**
+    ```gcd
+    #cameraWidget+
+       type=custom
+       design=...
+    ```
+
+24. **Implementing OCR for Text Recognition:**
+    ```gcd
+    #OCR+
+       language=en
+    ```
+
+25. **Developing a Music Streaming App:**
+    ```gcd
+    #musicStreaming+
+       platform=...
+    ```
+
+26. **Creating a To-Do List App:**
+    ```gcd
+    #toDoList+
+       features=...
+    ```
+
+27. **Integrating Location-Based Services:**
+    ```gcd
+    #locationServices+
+       type=maps
+       provider=...
+    ```
+
+28. **Adding Custom Transitions:**
+    ```gcd
+    #transitions+
+       type=custom
+       code=...
+    ```
+
+29. **Implementing Custom Drawing:**
+    ```gcd
+    #drawing+
+       type=custom
+       code=...
+    ```
+
+30. **Developing a Social Media Integration:**
+    ```gcd
+    #socialMedia+
+       platforms=facebook,twitter,instagram
+    ```
+
+### Advanced Top Bar Style:
+
+```gcd
+#topBar+
+   text=Welcome to GCD+
+   $colors#green
+   [height]#60px
+   [width]#100%
+   [font_size]#24px
+   [text_align]#center
+   [border_bottom]#2px solid #ffffff
+   [box_shadow]#0px 2px 5px #888888
+```
+
+### Advanced Window Style:
+
+```gcd
+
+
+#window+
+   $colors#black
+   [name]#GCD+
+   [height]#600px
+   [width]#900px
+   [border_radius]#15px
+   [box_shadow]#0px 0px 15px #888888
+```
+
+These examples cover a wide range of advanced features in GCD+, and you can customize them further based on your project requirements.
