@@ -1,0 +1,31 @@
+name: Build GCD+ Code
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Generate GCD+ Code
+        run: |
+          echo "# GCD+ Code Generation" > main.gcd
+          echo "~name#app=GeneratedApp" >> main.gcd
+          echo "$colors#blue" >> main.gcd
+          echo "#body+" >> main.gcd
+          echo "~text#Hello, GCD+!" >> main.gcd
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add main.gcd
+          git commit -m "Generate GCD+ code"
+          git push
+          
