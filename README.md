@@ -23,9 +23,15 @@ To start using GCD+, follow these steps:
 ## Preview Command
 
 To preview your application, use the following command:
-
+<dependencies>
+ <dependency>
+    <groupId>com.GCD+</groupId>
+    <artifactId>test</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </dependency>
+</dependencies>
 ```gcd
 #Preview+command[
    displayPreview()
 ]
- 
+  
