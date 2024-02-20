@@ -1,33 +1,19 @@
 {
    "language": "GCD+",
    "logo": "logo.png",
-   "text_color": {
-      "blue": "#0000FF",
-      "green": "#00FF00",
-      "purple": "#800080"
-   },
+   "text_colors": [
+      "#0000FF", // Blue
+      "#00FF00", // Green
+      "#800080"  // Purple
+   ],
+   "features": [
+      "Preview",
+      "GenerateApp",
+      "Advanced",
+      "DeveloperFriendly",
+      "FutureOriented"
+   ],
+   "version": "1.0",
    "preview_command": "Preview +application",
-   "install_command": "Install +app$",
-   "entities": {
-      "variables": {
-         "name": "Variable",
-         "icon": "path/to/variable_icon.png"
-      },
-      "functions": {
-         "name": "Function",
-         "icon": "path/to/function_icon.png"
-      },
-      "classes": {
-         "name": "Class",
-         "icon": "path/to/class_icon.png"
-      },
-      "methods": {
-         "name": "Method",
-         "icon": "path/to/method_icon.png"
-      },
-      "comments": {
-         "name": "Comment",
-         "icon": "path/to/comment_icon.png"
-      }
-   }
+   "install_command": "Install +app$"
 }
