@@ -1,0 +1,17 @@
+#Send~data~using~x-www-form-urlencoded[
+   url='https://example.com/api'
+   method='POST'
+   headers=[
+      'Content-Type: application/x-www-form-urlencoded',
+      'Authorization: Bearer my_access_token'
+   ]
+   body=[
+      'key1=value1',
+      'key2=value2',
+      'key3=value3'
+   ]
+   callback=(response) => {
+      // Your callback logic for handling the response
+      print(response)
+   }
+]
