@@ -1,4 +1,16 @@
 {
+  // entities.json
+{
+   "keywords": ["GCD+", "programming language", "code", "development", "customization", "AI", "animations"],
+   "concepts": ["custom UI", "advanced AI", "code styling", "interaction", "app development"],
+   "logo": "logo.png"
+}
+
+{
+   "keywords": ["GCD+", "programming language", "code", "development", "customization", "AI", "animations"],
+   "concepts": ["custom UI", "advanced AI", "code styling", "interaction", "app development"]
+}
+
   "entities": [
     {
       "name": "User",
@@ -77,4 +89,4 @@
     }
   ]
         }
-          
+ 
