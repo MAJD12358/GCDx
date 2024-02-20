@@ -1,92 +1,33 @@
 {
-  // entities.json
-{
-   "keywords": ["GCD+", "programming language", "code", "development", "customization", "AI", "animations"],
-   "concepts": ["custom UI", "advanced AI", "code styling", "interaction", "app development"],
-   "logo": "logo.png"
+   "language": "GCD+",
+   "logo": "path/to/logo.png",
+   "text_color": {
+      "blue": "#0000FF",
+      "green": "#00FF00",
+      "purple": "#800080"
+   },
+   "preview_command": "Preview +application",
+   "install_command": "Install +app$",
+   "entities": {
+      "variables": {
+         "name": "Variable",
+         "icon": "path/to/variable_icon.png"
+      },
+      "functions": {
+         "name": "Function",
+         "icon": "path/to/function_icon.png"
+      },
+      "classes": {
+         "name": "Class",
+         "icon": "path/to/class_icon.png"
+      },
+      "methods": {
+         "name": "Method",
+         "icon": "path/to/method_icon.png"
+      },
+      "comments": {
+         "name": "Comment",
+         "icon": "path/to/comment_icon.png"
+      }
+   }
 }
-
-{
-   "keywords": ["GCD+", "programming language", "code", "development", "customization", "AI", "animations"],
-   "concepts": ["custom UI", "advanced AI", "code styling", "interaction", "app development"]
-}
-
-  "entities": [
-    {
-      "name": "User",
-      "fields": [
-        {
-          "name": "id",
-          "type": "int",
-          "required": true
-        },
-        {
-          "name": "username",
-          "type": "string",
-          "required": true
-        },
-        {
-          "name": "email",
-          "type": "string",
-          "required": true
-        },
-        {
-          "name": "birthdate",
-          "type": "date",
-          "required": false
-        }
-      ]
-    },
-    {
-      "name": "Post",
-      "fields": [
-        {
-          "name": "id",
-          "type": "int",
-          "required": true
-        },
-        {
-          "name": "title",
-          "type": "string",
-          "required": true
-        },
-        {
-          "name": "content",
-          "type": "string",
-          "required": true
-        },
-        {
-          "name": "author",
-          "type": "User",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "Comment",
-      "fields": [
-        {
-          "name": "id",
-          "type": "int",
-          "required": true
-        },
-        {
-          "name": "text",
-          "type": "string",
-          "required": true
-        },
-        {
-          "name": "author",
-          "type": "User",
-          "required": true
-        },
-        {
-          "name": "post",
-          "type": "Post",
-          "required": true
-        }
-      ]
-    }
-  ]
-        }
- 
