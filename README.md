@@ -1,4 +1,17 @@
 # GCD+ Programming Language
+ 
+
+<p align="center">
+  <img src="url_to_your_logo" alt="GCD+ Logo" width="200">
+</p>
+
+Welcome to GCD+, a powerful and advanced programming language for building feature-rich applications.
+ 
+<p align="center">
+  <img src="url_to_your_logo" alt="GCD+ Logo" width="200">
+</p>
+
+Welcome to GCD+, a powerful and advanced programming language for building feature-rich applications.
 
 Welcome to GCD+, a powerful and advanced programming language for building feature-rich applications.
 
@@ -19,3 +32,4 @@ To preview your application, use the following command:
 #Preview+command[
    displayPreview()
 ]
+ 
