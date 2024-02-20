@@ -1,6 +1,6 @@
 {
    "language": "GCD+",
-   "logo": "path/to/logo.png",
+   "logo": "logo.png",
    "text_color": {
       "blue": "#0000FF",
       "green": "#00FF00",
