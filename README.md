@@ -2,17 +2,13 @@
  
 
 <p align="center">
-  <img src="url_to_your_logo" alt="GCD+ Logo" width="200">
+  <img src="logo.png" alt="GCD+ Logo" width="200">
 </p>
 
 Welcome to GCD+, a powerful and advanced programming language for building feature-rich applications.
  
 <p align="center">
-  <img src="url_to_your_logo" alt="GCD+ Logo" width="200">
-</p>
-
-Welcome to GCD+, a powerful and advanced programming language for building feature-rich applications.
-
+ 
 Welcome to GCD+, a powerful and advanced programming language for building feature-rich applications.
 
 ## Getting Started
